@@ -1,5 +1,5 @@
 class Song 
-  extend Findable #takes all of the method 
+extend Findable #take all the method in the Findable module & add them as class method
   attr_accessor :name
   @@all = []
   

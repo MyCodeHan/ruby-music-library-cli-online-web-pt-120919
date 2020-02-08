@@ -19,5 +19,9 @@ class Song
   
   def self.reset_all
     @@all.clear
-  end 
+  end
+  
+  def self.find_by_name(name)
+    @@all.detect{|artist| artist.name == name}
+  end
 end

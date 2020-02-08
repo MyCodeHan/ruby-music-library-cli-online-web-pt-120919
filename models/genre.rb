@@ -11,7 +11,7 @@ class Genre
   end
   
   def initialize
-      save
+    save
   end
   def save
     @@all << self

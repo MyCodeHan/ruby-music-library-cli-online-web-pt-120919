@@ -1,4 +1,5 @@
 class Song 
+  extend Findable #takes all of the method 
   attr_accessor :name
   @@all = []
   
